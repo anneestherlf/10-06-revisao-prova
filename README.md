@@ -37,10 +37,12 @@ IV. O uso de constraints como FOREIGN KEY garante que registros referenciados ex
 <!-- D) I, II e III, apenas.
 E) Todas as afirmativas estão corretas. -->
 
+R. Correta: A
+
 ### QUESTÃO 2 – Arquitetura Cliente-Servidor com MVC
 No desenvolvimento de uma aplicação web baseada em Node.js e Express, o time de desenvolvimento decidiu adotar o padrão arquitetural MVC. A aplicação deve permitir que o cliente interaja via navegador, enviando requisições HTTP para o servidor, que responderá com páginas dinâmicas.
 
-I. O Controller processa requisições e repassa dados para o Model, retornando a resposta ao cliente.
+I. O Controller processa requisições e repassa dados para o Model, retornando a resposta ao cliente. 
 II. O Model interage com a View diretamente para exibir os dados processados.
 III. A View representa a saída visual da aplicação e é gerada a partir das informações processadas pelo Controller.
 IV. Separar lógica de negócio e interface facilita a manutenção e reuso de código.
@@ -51,6 +53,8 @@ IV. Separar lógica de negócio e interface facilita a manutenção e reuso de c
 C) ✅ III e IV, apenas.
 <!-- D) II, III e IV, apenas.
 E) Todas as afirmativas estão corretas. -->
+
+R. Correta: A
 
 ### QUESTÃO 3 – Banco de Dados Não Relacionais
 Uma startup desenvolvendo uma aplicação de redes sociais decidiu utilizar um banco de dados do tipo NoSQL para armazenar informações de perfis de usuários, postagens e relações de amizade. A escolha se deu pela flexibilidade de estrutura e pela necessidade de escalar horizontalmente a aplicação com facilidade.
@@ -67,7 +71,12 @@ C) II e III, apenas.
 D) I, III e IV, apenas.
 E) Todas as afirmativas estão corretas. -->
 
-### QUESTÃO 4 – Requisições Assíncronas com Controllers
+R. Correta: A
+
+Estudar:
+- Consistência eventual.
+
+### ***QUESTÃO 4 – Requisições Assíncronas com Controllers (fetch API)
 Em uma aplicação que utiliza o framework Express.js, o aluno foi encarregado de implementar a lógica do backend. O sistema recebe requisições assíncronas do frontend utilizando a Fetch API e responde com dados obtidos de um banco PostgreSQL. A lógica de cada rota é implementada em controladores assíncronos.
 
 I. O uso de async/await facilita a leitura de código assíncrono em JavaScript.
@@ -82,13 +91,15 @@ C) ✅ I, III e IV, apenas.
 <!-- D) I, II e III, apenas. -->
 <!-- E) Todas as afirmativas estão corretas. -->
 
+R. Correta: A
+
 ### QUESTÃO 5 – Anatomia de uma Aplicação em Camadas
 Um grupo de desenvolvedores está projetando uma aplicação web corporativa e decidiu utilizar uma arquitetura em camadas para garantir a manutenibilidade e a escalabilidade do sistema. O sistema será dividido entre a camada de apresentação (frontend), a camada de negócios (backend) e a camada de dados (banco de dados). Cada camada terá responsabilidades bem definidas.
 
 I. A camada de apresentação é responsável por interagir com o usuário, exibindo informações e coletando entradas.
 II. A camada de negócios aplica as regras funcionais e validações, separando-se da interface e da lógica de persistência.
 III. A camada de dados deve encapsular o acesso ao banco, impedindo o acesso direto por outras camadas.
-IV. A ausência de camadas intermediárias favorece o acoplamento e reduz a reutilização de componentes.
+IV. A ausência de camadas intermediárias favorece o acoplamento e reduz** a reutilização de componentes.
 
 **É correto o que se afirma em:**
 <!-- A) I, II e III, apenas.   -->
@@ -96,6 +107,11 @@ IV. A ausência de camadas intermediárias favorece o acoplamento e reduz a reut
 <!-- C) I, III e IV, apenas.
 D) I, II e IV, apenas.   -->
 <!-- E) Todas as afirmativas estão corretas. -->
+
+R. Correta: A
+
+Estudar:
+- encapsulamento.
 
 ### QUESTÃO 6 – Paradigmas de Programação
 Durante uma aula sobre linguagens de programação, foram apresentados diversos paradigmas, como o imperativo, o funcional e o orientado a objetos. Cada paradigma adota uma forma distinta de modelar o comportamento do sistema e manipular os dados.
@@ -112,6 +128,9 @@ A) ✅ I, II e III, apenas.
 <!-- D) I, II e IV, apenas.
 E) Todas as afirmativas estão corretas. -->
 
+Estudar:
+- paradigmas de computação.
+
 ### QUESTÃO 7 – Setup de Ambiente com Node.js, VSCode e Supabase
 Ao iniciar o desenvolvimento de um projeto fullstack, uma equipe de estudantes realizou a instalação do Node.js, configurou o editor VSCode com extensões úteis, e utilizou o Supabase como backend. O objetivo era integrar de forma eficiente o frontend com um banco relacional escalável.
 
@@ -127,7 +146,13 @@ IV. Após inicializar um projeto Node com npm init -y, não é necessário criar
 <!-- D) I, III e IV, apenas.
 E) Todas as afirmativas estão corretas. -->
 
-### QUESTÃO 8 – Chave Primária e Estrangeira
+Anotações pra prova:
+- sobre IV. (não é necessário criar o package.json)
+- projeto não roda sem o package, ele precisa das dependências que estão no package.json. 
+
+R. Correta: E
+
+### QUESTÃO 8 – ***Chave Primária e Estrangeira
 Em uma base de dados relacional, o uso adequado de chaves primárias e estrangeiras é essencial para manter a integridade dos dados e garantir que os relacionamentos entre as tabelas sejam consistentes. Um analista júnior precisa revisar o modelo lógico antes da implementação.
 
 I. Uma chave primária identifica unicamente cada linha da tabela e não aceita valores nulos.
@@ -141,6 +166,8 @@ IV. Uma tabela pode conter múltiplas chaves primárias, desde que em colunas di
 <!-- C) II e III, apenas. -->
 ✅  D) I, III e IV, apenas. 
 <!-- E) Todas as afirmativas estão corretas. -->
+
+R. Correta: A
 
 ### QUESTÃO 9 – Introdução ao Padrão MVC
 O padrão de arquitetura MVC visa organizar o código de uma aplicação em três camadas: Model, View e Controller. Essa separação permite dividir tarefas de forma clara, além de tornar o desenvolvimento colaborativo mais eficiente.
@@ -157,7 +184,9 @@ C) I, III e IV, apenas.
 D) I, II e IV, apenas. -->
 E) ✅Todas as afirmativas estão corretas.
 
-### QUESTÃO 10 – Estrutura  e Semântica do HTML
+R. Correta: A
+
+### ***QUESTÃO 10 – Estrutura  e Semântica do HTML
 A criação de páginas web bem estruturadas e acessíveis depende do uso adequado dos elementos HTML, especialmente aqueles introduzidos no HTML5, que trouxeram mais significado semântico ao conteúdo exibido.
 
 I. O uso de `<article>`, `<section>` e `<nav>` melhora a semântica e a acessibilidade das páginas.
@@ -172,6 +201,9 @@ A) ✅ I, II e III, apenas.
 D) I, II e IV, apenas. -->
 <!-- E) Todas as afirmativas estão corretas. -->
 
+R. Correta:
+
 ---
 
 Boa revisão e bons estudos! 🚀
+***vão cair na prova
